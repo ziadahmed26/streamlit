@@ -6,7 +6,7 @@ import plotly.express as px
 import streamlit as st 
 #Diagnosing data 
 
-dt=pd.read_csv("d:\Data\datasets2\market sales\superstore_final_dataset (1).csv",encoding="latin-1")
+dt=pd.read_csv("c:\Users\Assiu Tech\Desktop\streamlit\superstore_final_dataset (1).csv",encoding="latin-1")
 df=dt[dt.Sales<14000]
 df['Order_Date']=pd.to_datetime(df['Order_Date'])
 df['Ship_Date']=pd.to_datetime(df['Ship_Date'])
