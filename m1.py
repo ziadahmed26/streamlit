@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 import streamlit as st 
 #Diagnosing data 
-dt=pd.read_csv("c:\Users\Assiu Tech\Desktop\streamlit\superstore_final_dataset (1).csv"encoding="latin-1")
+dt=pd.read_csv("c:\Users\Assiu Tech\Desktop\streamlit\superstore_final_dataset (1).csv",encoding="latin-1")
 
 
 df=dt[dt.Sales<14000]
